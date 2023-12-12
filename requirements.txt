@@ -4,3 +4,6 @@ streamlit
 polars
 pyarrow
 plotly
+
+geopandas
+geodatasets
