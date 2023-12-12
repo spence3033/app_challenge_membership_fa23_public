@@ -86,7 +86,7 @@ I cannot see any improvements to this code. We had some class projects where we 
 
 #### Code Block 64
 
-In this code block, we figure out the distribution weight ratio of members to their home tracts. We will try to filter out friends or family though that are visiting from far away. To do this we create a type of score based on the distance to home tracts and the number of visitors. If the score is too high, they will be filtered out. I'll explain the process in the next paragraph.
+In this code block, we figure out the distribution weight ratio of members to their home tracts. We will try to filter out friends or family though that are visiting from far away. To do this we create a type of score based on the distance to home tracts and the number of visitors. If the score is too high, they will be filtered out. I'll explain the process in the next paragraphs.
 
 First we total up the number of tract visitors to a church during a month. Then we find the product of tract distance by the number of visitors from a tract. Then we sum these products for a year for each church building. The purpose of summing these products is we have gotten the total distance between every visitor's home tract to a church building over the course of the year. Now we'll get the total number of visitors to a church building over a year. Here we will divide the total visitors to a church building by the total distance of visitor's home tracts to the church building. This number will be the average distance away church members home tracts are from the church they go to.
 
