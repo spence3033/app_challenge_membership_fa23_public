@@ -10,3 +10,4 @@ streamlit_folium
 geopandas
 geodatasets
 matplotlib
+wget
