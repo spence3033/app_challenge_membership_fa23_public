@@ -5,6 +5,7 @@ polars
 pyarrow
 plotly
 
+folium
 geopandas
 geodatasets
 matplotlib
