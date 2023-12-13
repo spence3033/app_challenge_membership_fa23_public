@@ -7,3 +7,5 @@ plotly
 
 geopandas
 geodatasets
+os
+matplotlib
