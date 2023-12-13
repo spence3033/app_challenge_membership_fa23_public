@@ -2,6 +2,9 @@
 
 This repository contains an application to view a report about the membership to the church of Jesus Christ of Latter-Day Saints accross the USA.
 
+Location of github respository
+https://github.com/spence3033/app_challenge_membership_fa23
+
 ## Viewing the Application
 
 Requirement to run this repository: You will need to install [Docker] (https://www.docker.com/get-started/)
