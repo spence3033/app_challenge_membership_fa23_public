@@ -6,6 +6,7 @@ pyarrow
 plotly
 
 folium
+streamlit_folium
 geopandas
 geodatasets
 matplotlib
