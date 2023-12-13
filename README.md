@@ -14,10 +14,17 @@ We currently use `python:3.11.6-slim` in our [Dockerfile](Dockerfile).  You can 
 
 ## Feature Comparison
 
-I will display membership compared to average house costs in census data accross the US.
+I grabbed census data for the number of house owners and average house costs. This first graph was just interesting to see the trend of average house costs and see that there are areas have high house costs and low house costs, and most being in the $200,000 dollar range.
 
-* One spatial map
-* One chart
+![Chart of the distribution of average house costs accross the USA](feature_scripts/average_housing_costs_for_tracts.png)
+
+Here is a interesting spatial map of the states on the west coast with their average house costs.
+
+![Average House Costs Spatial Map](feature_scripts/Average_housing_costs_map.png)
+
+I filtered out membership over 400 and under 50 to see more clearly if there is a trend between house costs and membership. The most clustered dots that have higher membership tend to be in in tracts where houses cost $250k-350k range. This might be slightly to the right of the bell curve but it's hard to say. It's likely there is no comparison to be found between these features.
+
+![Average House Costs Spatial Map](feature_scripts/comparing_tract_house_costs_to_membership.png)
 
 ## Tools Used
 

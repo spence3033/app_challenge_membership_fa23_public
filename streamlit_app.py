@@ -236,9 +236,7 @@ with st.expander('Spatial Map'):
     long_top = st.slider("Top", 0, 75, 75)
     long_bottom = st.slider("Bottom", 0, 75, 0)
         
-    # Spatial Map here
-
-    
+    # Spatial Map here 
     filtered = tract_df.filter(pl.col("home").str.starts_with(statesList[stateSelected]))\
                        .filter(pl.col("active_members_estimate") > 20)
 
