@@ -5,7 +5,9 @@ polars
 pyarrow
 plotly
 
+folium
+streamlit_folium
 geopandas
 geodatasets
-os
 matplotlib
+wget
