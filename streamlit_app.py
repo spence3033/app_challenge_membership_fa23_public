@@ -27,10 +27,13 @@ tract_before = pl.read_parquet("data/active_members_tract.parquet")
 chapel_scrape = pl.read_parquet("data/full_church_building_data-20.parquet")
 chapel_safegraph = pl.read_parquet("data/safegraph_chapel.parquet")
 chapel_safegraph_clean = pl.read_parquet("data/safegraph_chapel_clean.parquet")
-temples = pl.from_arrow(pq.read_table("data/temple_details_spatial.parquet"))
+# temples = pl.from_arrow(pq.read_table("data/temple_details_spatial.parquet"))
+temples = pl.from_arrow(pq.read_parquet("data/temple_details_spatial.parquet"))
 tract_nearest = pl.from_arrow(pq.read_table("data/tract_distance_to_nearest_temple.parquet"))
 
 # %%
+temples
+#%%
 # Address the following topics - explore answers by state, county, and/or tract.
 # 1. How does the number of chapels in Safegraph compare to the number of chapels from the church website web scrape?
 # 2. Does the active member estimate look reasonable as compared to the tract population?
